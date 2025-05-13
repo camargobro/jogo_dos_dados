@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+body{
+    background-color: rgb(114, 3, 3);
+    text-align: center;
+    
+}
+
+.titulo{
+    font-size: 60px;
+}
+
+h1{
+    color:rgb(255, 255, 255);
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400px;
+    font-style: normal;
+    margin: 20px;
+}
+.dado-jogador{
+    display: inline-block;
+    margin: 34px;
+    width: 150px;
+}
+img {
+  width: 100%;
+}
+
+.botao{
+    color:rgb(255, 255, 255);
+    background-color: rgb(255, 0, 0);
+    font-family: "Audiowide", sans-serif;
+    font-style: normal;
+    width: 250px;
+    height: 40px;
+    font-size: 30px;
+    border-radius: 70px;
+ transition-duration: 0.4s;
+ cursor: pointer;
+}
+.botao:hover {
+  background-color: #630f0f;
+  color: white;
+}
